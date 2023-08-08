@@ -252,7 +252,7 @@ nav a:not(:last-child) {
     border-radius: 6px;
 }
 
-.link{
+.link {
     text-decoration: underline;
 }
 
@@ -462,4 +462,42 @@ footer {
 
 .total-price {
     font-size: 1.275em;
+}
+
+
+/* custom*/
+
+
+/*order-confirm*/
+.modal{
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close-btn{
+    background: #d61a49;
+}
+
+.ps-add-f{
+    height: 81px;
+}
+
+/*my order*/
+
+.cancel-passenger {
+    opacity: .5;
+}
+
+
+.readonly{
+    pointer-events: none;
+    opacity: 0.8;
 }
